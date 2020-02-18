@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box{
+  width: 100%;
+  height: 100%;
+}
+.box div{
+  width: 100px;
+  height: 100px;
+  margin: 50px;
+  border: 1px solid red;
+}
+
+
+
+/* 一、旋转rotate */
+
+/* rotate() ：通过指定的角度参数对原元素指定一个2D rotation（2D 旋转），
+.box_rotate{
+  transform:rotate(-30deg);
+ 	/* -ms-transform:rotate(7deg);  IE 9 */
+  	/* -moz-transform:rotate(7deg); Firefox */
+  /* -webkit-transform:rotate(7deg); Safari 和 Chrome */
+  /*-o-transform:rotate(7deg); 	 Opera */
+}
+
+
+/* 二、移动translate */
+
+ 
+.box_translate{
+  transform: translate(100px,20px);
+  
+}
+
+
+
+.box_scale{
+  transform: scale(2,1.5);
+}
+
+
+.box_skew{
+  transform: skew(30deg,30deg);
+}
+
+
+.htmleaf-container {
+  margin: 0 auto;
+}
+
+#trans3DDemo1 {
+  
+}
+
+#trans3DBoxes1 {
+  transform-style: preserve-3d;
+  perspective: 3000px;
+  transform: translate(120px) rotate3d(1, 1, 1, -41deg);
+}
+
+#trans3DBoxes1 div {
+  position: absolute;
+  width: 248px;
+  height: 248px;
+  padding: 0;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, .2);
+  display: block;
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.a1 {
+  background: rgb(148, 141, 131);
+  opacity: 0.85;
+  transform:  translate3d(0px, 0px, 125px);
+
+}
+
+
+
+
