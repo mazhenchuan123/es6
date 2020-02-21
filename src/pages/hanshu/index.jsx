@@ -43,20 +43,21 @@ import React, { Component } from 'react';
 // var result = values.sort((a, b) => a - b);
 // 新的语法允许定义和调用时，尾部直接有一个逗号。
 // 12
+// function log(x, y = 'World') {
+//   console.log(x, y);
+// }
+
+// log('Hello') // Hello World
+// log('Hello', 'China') // Hello China
+// log('Hello', '') // Hello
 class componentName extends Component {
 
     render() {
         return (
-            
+            <div>111</div>
         );
     }
 }
-function log(x, y = 'World') {
-  console.log(x, y);
-}
 
-log('Hello') // Hello World
-log('Hello', 'China') // Hello China
-log('Hello', '') // Hello
 
 export default componentName;
