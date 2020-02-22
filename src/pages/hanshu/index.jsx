@@ -42,7 +42,7 @@ import React, { Component } from 'react';
 // }
 // var result = values.sort((a, b) => a - b);
 // 新的语法允许定义和调用时，尾部直接有一个逗号。
-// 12
+// 123
 // function log(x, y = 'World') {
 //   console.log(x, y);
 // }
